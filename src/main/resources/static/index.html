@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.com/docs/4.1/examples/checkout/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+        <title>Mercado de Valores</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="./css/form-validation.css" rel="stylesheet">
+    </head>
+
+    <body class="bg-light">
+
+        <div class="container">
+            <div class="py-5 text-center">
+                <h2>Consulta la acción negociada</h2>
+                <p class="lead">Digita el identificador de la acción</p>
+            </div>
+
+            <div id="actionField" style="display: flex; justify-content: center; align-items: center">
+                <form id="formShare">
+                    <div class="input-group mb-3" style="" >
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Identificador</span>
+                        </div>
+                        <input id="inputCiudad" required type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <button id="ciudad" onclick="getClimaCiudad" type="button" class="btn btn-secondary">Buscar</button>
+
+                </form>
+            </div>
+            <div class="py-5 text-center"> 
+                <h2>Histórico de valoración intra-día</h2>
+            </div>
+            <div class="py-5 text-center">       
+                <h2>Histórico de valoración diaria</h2>
+            </div>
+            <div class="py-5 text-center">       
+                <h2>Histórico de valoración semanal</h2>
+            </div>
+            <div class="py-5 text-center">       
+                <h2>Histórico de valoración mensual</h2>
+            </div>
+
+            <footer class="my-5 pt-5 text-muted text-center text-small">
+                <p class="mb-1">© 2018 By Daniel Esteban Castiblanco</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://github.com/dolardanies/3368">Repositorio Github</a></li>
+                    
+                </ul>
+            </footer>
+            <br>
+            <div id="dataDiv" style="align-items: center">            
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/holder.min.js"></script>       
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="js/ValoresController.js"></script>
+
+
+    </body>
+</html>
