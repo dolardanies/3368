@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hello.CustomerRepositoryTests" time="184.832" tests="3" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes;C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.5.RELEASE\spring-boot-starter-data-mongodb-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.5.RELEASE\spring-boot-starter-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot\2.0.5.RELEASE\spring-boot-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.5.RELEASE\spring-boot-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.5.RELEASE\spring-boot-starter-logging-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\2104481\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\2104481\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\2104481\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-mongodb\2.0.10.RELEASE\spring-data-mongodb-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\2104481\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\2104481\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\2104481\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\2104481\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\2104481\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar;C:\Users\2104481\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\2104481\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\2104481\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\2104481\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832\surefirebooter7071070234710133090.jar C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832 2018-11-08T16-29-15_827-jvmRun1 surefire5525710016926778766tmp surefire_08921079756519831972tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes;C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.5.RELEASE\spring-boot-starter-data-mongodb-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.5.RELEASE\spring-boot-starter-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot\2.0.5.RELEASE\spring-boot-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.5.RELEASE\spring-boot-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.5.RELEASE\spring-boot-starter-logging-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\2104481\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\2104481\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\2104481\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-mongodb\2.0.10.RELEASE\spring-data-mongodb-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\2104481\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\2104481\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\2104481\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\2104481\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\2104481\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar;C:\Users\2104481\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\2104481\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\2104481\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\2104481\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2104481"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="basedir" value="C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832\surefirebooter7071070234710133090.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="2104481"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\2104481\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2104481\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\SqliteBrowser3\bin;C:\Program Files\Java\jre1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\sqldeveloper2017\sqldeveloper\bin;C:\Program Files\Python36\Lib;C:\Program Files\Python36\Lib\idlelib;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Users\rescate\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\apache-maven-3.5.3\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MATLAB\R2017b\bin;C:\Users\2104481\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="findsByLastName" classname="hello.CustomerRepositoryTests" time="0.01">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+</error>
+    <system-out><![CDATA[16:29:17.405 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.CustomerRepositoryTests]
+16:29:17.410 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:29:17.428 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:29:17.453 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.CustomerRepositoryTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:29:17.517 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.CustomerRepositoryTests], using SpringBootContextLoader
+16:29:17.528 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.CustomerRepositoryTests]: class path resource [hello/CustomerRepositoryTests-context.xml] does not exist
+16:29:17.528 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.CustomerRepositoryTests]: class path resource [hello/CustomerRepositoryTestsContext.groovy] does not exist
+16:29:17.528 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.CustomerRepositoryTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:29:17.529 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.CustomerRepositoryTests]: CustomerRepositoryTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:29:17.615 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.CustomerRepositoryTests]
+16:29:17.623 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+16:29:17.623 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:29:17.624 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@2007331442 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_151\jre\bin, java.vm.version=25.151-b12, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete, java.runtime.version=1.8.0_151-b12, basedir=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed, os.arch=amd64, surefire.real.class.path=C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832\surefirebooter7071070234710133090.jar, java.io.tmpdir=C:\Users\2104481\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, maven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\SqliteBrowser3\bin;C:\Program Files\Java\jre1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\sqldeveloper2017\sqldeveloper\bin;C:\Program Files\Python36\Lib;C:\Program Files\Python36\Lib\idlelib;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Users\rescate\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\apache-maven-3.5.3\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MATLAB\R2017b\bin;C:\Users\2104481\AppData\Local\Microsoft\WindowsApps;;., surefire.test.class.path=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes;C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.5.RELEASE\spring-boot-starter-data-mongodb-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.5.RELEASE\spring-boot-starter-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot\2.0.5.RELEASE\spring-boot-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.5.RELEASE\spring-boot-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.5.RELEASE\spring-boot-starter-logging-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\2104481\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\2104481\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\2104481\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-mongodb\2.0.10.RELEASE\spring-data-mongodb-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\2104481\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\2104481\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\2104481\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\2104481\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\2104481\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar;C:\Users\2104481\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\2104481\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\2104481\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\2104481\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\2104481, user.timezone=America/Bogota, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes;C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.5.RELEASE\spring-boot-starter-data-mongodb-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.5.RELEASE\spring-boot-starter-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot\2.0.5.RELEASE\spring-boot-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.5.RELEASE\spring-boot-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.5.RELEASE\spring-boot-starter-logging-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\2104481\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\2104481\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\2104481\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-mongodb\2.0.10.RELEASE\spring-data-mongodb-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\2104481\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\2104481\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\2104481\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\2104481\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\2104481\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar;C:\Users\2104481\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\2104481\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\2104481\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\2104481\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;, user.name=2104481, java.vm.specification.version=1.8, sun.java.command=C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832\surefirebooter7071070234710133090.jar C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832 2018-11-08T16-29-15_827-jvmRun1 surefire5525710016926778766tmp surefire_08921079756519831972tmp, java.home=C:\Program Files\Java\jdk1.8.0_151\jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_151, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes, java.vendor=Oracle Corporation, localRepository=C:\Users\2104481\.m2\repository, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}}, SystemEnvironmentPropertySource@1904324159 {name='systemEnvironment', properties={PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\SqliteBrowser3\bin;C:\Program Files\Java\jre1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\sqldeveloper2017\sqldeveloper\bin;C:\Program Files\Python36\Lib;C:\Program Files\Python36\Lib\idlelib;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Users\rescate\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\apache-maven-3.5.3\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MATLAB\R2017b\bin;C:\Users\2104481\AppData\Local\Microsoft\WindowsApps;, USERDOMAIN_ROAMINGPROFILE=LABINFO, PROCESSOR_LEVEL=6, SYSTEMDRIVE=C:, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, DRIVERDATA=C:\Windows\System32\Drivers\DriverData, MAVEN_HOME=C:\Program Files\apache-maven-3.5.3, NB_EXEC_MAVEN_PROCESS_UUID=9774b949-41fa-47df-912b-1285d6416b17, PROGRAMFILES=C:\Program Files, PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, PROGRAMDATA=C:\ProgramData, USERNAME=2104481, USERDNSDOMAIN=LABINFO.IS.ESCUELAING.EDU.CO, ONEDRIVE=C:\Users\2104481\OneDrive, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, CLASSWORLDS_JAR="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar", WINDIR=C:\Windows, HOMEPATH=\Users\2104481, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel, M2_HOME=C:\Program Files\NetBeans 8.2\java\maven, MAVEN_JAVA_EXE="C:\Program Files\Java\jdk1.8.0_151\bin\java.exe", PUBLIC=C:\Users\Public, =::=::\, LOCALAPPDATA=C:\Users\2104481\AppData\Local, COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, USERDOMAIN=LABINFO, LOGONSERVER=\\JASPE, JAVA_HOME=C:\Program Files\Java\jdk1.8.0_151, PROMPT=$P$G, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, PROGRAMFILES(X86)=C:\Program Files (x86), ERROR_CODE=0, QT_DEVICE_PIXEL_RATIO=auto, =C:=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete, APPDATA=C:\Users\2104481\AppData\Roaming, PROGRAMW6432=C:\Program Files, SYSTEMROOT=C:\Windows, MAVEN_CMD_LINE_ARGS=-Dmaven.ext.class.path="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar" -Dfile.encoding=UTF-8 clean install, PT7HOME=C:\Program Files\Cisco Packet Tracer 7.1.1, OS=Windows_NT, COMMONPROGRAMW6432=C:\Program Files\Common Files, COMPUTERNAME=SISTEMAS42, COMMONPROGRAMFILES=C:\Program Files\Common Files, COMSPEC=C:\Windows\system32\cmd.exe, PROCESSOR_REVISION=5e03, CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, TEMP=C:\Users\2104481\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\2104481, TMP=C:\Users\2104481\AppData\Local\Temp, NUMBER_OF_PROCESSORS=8, HOME=C:\Users\2104481}}]
+16:29:17.643 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/C:/Users/2104481/Downloads/gs-accessing-data-mongodb-master/gs-accessing-data-mongodb-master/complete/target/test-classes/hello/], URL [file:/C:/Users/2104481/Downloads/gs-accessing-data-mongodb-master/gs-accessing-data-mongodb-master/complete/target/classes/hello/]]
+16:29:17.644 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes\hello]
+16:29:17.644 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes\hello] for files matching pattern [C:/Users/2104481/Downloads/gs-accessing-data-mongodb-master/gs-accessing-data-mongodb-master/complete/target/test-classes/hello/*.class]
+16:29:17.647 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes\hello]
+16:29:17.647 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes\hello] for files matching pattern [C:/Users/2104481/Downloads/gs-accessing-data-mongodb-master/gs-accessing-data-mongodb-master/complete/target/classes/hello/*.class]
+16:29:17.648 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes\hello\CustomerRepositoryTests.class], file [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes\hello\Application.class], file [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes\hello\Customer.class], file [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes\hello\CustomerRepository.class]]
+16:29:17.741 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes\hello\Application.class]
+16:29:17.743 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.CustomerRepositoryTests
+16:29:17.932 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.CustomerRepositoryTests]: using defaults.
+16:29:17.945 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+16:29:17.958 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+16:29:17.963 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@40a4337a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6025e1b6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@22ff4249, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2d1ef81a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c402120, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@327514f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5b12b668, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1165b38, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4c12331b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7586beff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3b69e7d1]
+16:29:17.965 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.CustomerRepositoryTests]
+16:29:17.965 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.CustomerRepositoryTests]
+16:29:17.966 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.CustomerRepositoryTests]
+16:29:17.967 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.CustomerRepositoryTests]
+16:29:17.967 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.CustomerRepositoryTests]
+16:29:17.967 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.CustomerRepositoryTests]
+16:29:17.970 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1fa121e2 testClass = CustomerRepositoryTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7eac9008 testClass = CustomerRepositoryTests, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@47db50c5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@954b04f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@fe18270, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7ba18f1b], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+16:29:17.971 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.CustomerRepositoryTests]
+16:29:17.971 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.CustomerRepositoryTests]
+16:29:17.975 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@1fa121e2 testClass = CustomerRepositoryTests, testInstance = hello.CustomerRepositoryTests@1c1bbc4e, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7eac9008 testClass = CustomerRepositoryTests, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@47db50c5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@954b04f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@fe18270, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7ba18f1b], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+16:29:18.157 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+16:29:18.157 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:29:18.157 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@1278852808 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_151\jre\bin, java.vm.version=25.151-b12, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete, java.runtime.version=1.8.0_151-b12, basedir=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed, os.arch=amd64, surefire.real.class.path=C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832\surefirebooter7071070234710133090.jar, java.io.tmpdir=C:\Users\2104481\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, maven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\SqliteBrowser3\bin;C:\Program Files\Java\jre1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\sqldeveloper2017\sqldeveloper\bin;C:\Program Files\Python36\Lib;C:\Program Files\Python36\Lib\idlelib;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Users\rescate\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\apache-maven-3.5.3\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MATLAB\R2017b\bin;C:\Users\2104481\AppData\Local\Microsoft\WindowsApps;;., surefire.test.class.path=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes;C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.5.RELEASE\spring-boot-starter-data-mongodb-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.5.RELEASE\spring-boot-starter-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot\2.0.5.RELEASE\spring-boot-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.5.RELEASE\spring-boot-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.5.RELEASE\spring-boot-starter-logging-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\2104481\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\2104481\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\2104481\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-mongodb\2.0.10.RELEASE\spring-data-mongodb-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\2104481\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\2104481\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\2104481\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\2104481\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\2104481\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar;C:\Users\2104481\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\2104481\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\2104481\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\2104481\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\2104481, user.timezone=America/Bogota, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\test-classes;C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete\target\classes;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.5.RELEASE\spring-boot-starter-data-mongodb-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.5.RELEASE\spring-boot-starter-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot\2.0.5.RELEASE\spring-boot-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.5.RELEASE\spring-boot-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.5.RELEASE\spring-boot-starter-logging-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\2104481\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;C:\Users\2104481\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\2104481\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\2104481\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\2104481\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2104481\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-mongodb\2.0.10.RELEASE\spring-data-mongodb-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar;C:\Users\2104481\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar;C:\Users\2104481\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\2104481\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\2104481\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\2104481\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\2104481\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\2104481\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar;C:\Users\2104481\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\2104481\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\2104481\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2104481\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\2104481\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\2104481\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar;C:\Users\2104481\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;, user.name=2104481, java.vm.specification.version=1.8, sun.java.command=C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832\surefirebooter7071070234710133090.jar C:\Users\2104481\AppData\Local\Temp\surefire7894167123060699832 2018-11-08T16-29-15_827-jvmRun1 surefire5525710016926778766tmp surefire_08921079756519831972tmp, java.home=C:\Program Files\Java\jdk1.8.0_151\jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_151, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes, java.vendor=Oracle Corporation, localRepository=C:\Users\2104481\.m2\repository, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}}, SystemEnvironmentPropertySource@63390 {name='systemEnvironment', properties={PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\SqliteBrowser3\bin;C:\Program Files\Java\jre1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\sqldeveloper2017\sqldeveloper\bin;C:\Program Files\Python36\Lib;C:\Program Files\Python36\Lib\idlelib;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Users\rescate\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\apache-maven-3.5.3\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MATLAB\R2017b\bin;C:\Users\2104481\AppData\Local\Microsoft\WindowsApps;, USERDOMAIN_ROAMINGPROFILE=LABINFO, PROCESSOR_LEVEL=6, SYSTEMDRIVE=C:, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, DRIVERDATA=C:\Windows\System32\Drivers\DriverData, MAVEN_HOME=C:\Program Files\apache-maven-3.5.3, NB_EXEC_MAVEN_PROCESS_UUID=9774b949-41fa-47df-912b-1285d6416b17, PROGRAMFILES=C:\Program Files, PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, PROGRAMDATA=C:\ProgramData, USERNAME=2104481, USERDNSDOMAIN=LABINFO.IS.ESCUELAING.EDU.CO, ONEDRIVE=C:\Users\2104481\OneDrive, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, CLASSWORLDS_JAR="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar", WINDIR=C:\Windows, HOMEPATH=\Users\2104481, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel, M2_HOME=C:\Program Files\NetBeans 8.2\java\maven, MAVEN_JAVA_EXE="C:\Program Files\Java\jdk1.8.0_151\bin\java.exe", PUBLIC=C:\Users\Public, =::=::\, LOCALAPPDATA=C:\Users\2104481\AppData\Local, COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, USERDOMAIN=LABINFO, LOGONSERVER=\\JASPE, JAVA_HOME=C:\Program Files\Java\jdk1.8.0_151, PROMPT=$P$G, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, PROGRAMFILES(X86)=C:\Program Files (x86), ERROR_CODE=0, QT_DEVICE_PIXEL_RATIO=auto, =C:=C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete, APPDATA=C:\Users\2104481\AppData\Roaming, PROGRAMW6432=C:\Program Files, SYSTEMROOT=C:\Windows, MAVEN_CMD_LINE_ARGS=-Dmaven.ext.class.path="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar" -Dfile.encoding=UTF-8 clean install, PT7HOME=C:\Program Files\Cisco Packet Tracer 7.1.1, OS=Windows_NT, COMMONPROGRAMW6432=C:\Program Files\Common Files, COMPUTERNAME=SISTEMAS42, COMMONPROGRAMFILES=C:\Program Files\Common Files, COMSPEC=C:\Windows\system32\cmd.exe, PROCESSOR_REVISION=5e03, CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, TEMP=C:\Users\2104481\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\2104481, TMP=C:\Users\2104481\AppData\Local\Temp, NUMBER_OF_PROCESSORS=8, HOME=C:\Users\2104481}}]
+16:29:18.159 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+16:29:18.159 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'Inlined Test Properties' with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-11-08 16:29:18.493  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Starting CustomerRepositoryTests on sistemas42 with PID 11316 (started by 2104481 in C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete)
+2018-11-08 16:29:18.494  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : No active profile set, falling back to default profiles: default
+2018-11-08 16:29:18.518  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@740cae06: startup date [Thu Nov 08 16:29:18 COT 2018]; root of context hierarchy
+2018-11-08 16:29:20.008  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-08 16:29:20.442  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Started CustomerRepositoryTests in 2.281 seconds (JVM running for 4.34)
+2018-11-08 16:29:20.473  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster description not yet available. Waiting for 30000 ms before timing out
+2018-11-08 16:29:21.081  INFO 11316 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongodb-driver-core-3.6.4.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongodb-driver-core-3.6.4.jar:na]
+	... 3 common frames omitted
+
+2018-11-08 16:29:50.476  INFO 11316 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-08 16:29:50.479 ERROR 11316 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) [spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 33 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 57 common frames omitted
+
+2018-11-08 16:29:50.513  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@740cae06: startup date [Thu Nov 08 16:29:18 COT 2018]; root of context hierarchy
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-11-08 16:29:50.541  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Starting CustomerRepositoryTests on sistemas42 with PID 11316 (started by 2104481 in C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete)
+2018-11-08 16:29:50.541  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : No active profile set, falling back to default profiles: default
+2018-11-08 16:29:50.543  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71178a52: startup date [Thu Nov 08 16:29:50 COT 2018]; root of context hierarchy
+2018-11-08 16:29:50.682  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-08 16:29:50.741  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Started CustomerRepositoryTests in 0.223 seconds (JVM running for 34.651)
+2018-11-08 16:29:50.742  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster description not yet available. Waiting for 30000 ms before timing out
+2018-11-08 16:29:51.701  INFO 11316 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongodb-driver-core-3.6.4.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongodb-driver-core-3.6.4.jar:na]
+	... 3 common frames omitted
+
+2018-11-08 16:30:20.734  INFO 11316 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-08 16:30:20.735 ERROR 11316 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) [spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.outputConditionEvaluationReport(SpringBootDependencyInjectionTestExecutionListener.java:54) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 32 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 56 common frames omitted
+
+2018-11-08 16:30:20.735  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@71178a52: startup date [Thu Nov 08 16:29:50 COT 2018]; root of context hierarchy
+2018-11-08 16:30:20.737 ERROR 11316 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@22ff4249] to prepare test instance [hello.CustomerRepositoryTests@1c1bbc4e]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) ~[spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 28 common frames omitted
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 33 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 57 common frames omitted
+
+]]></system-out>
+  </testcase>
+  <testcase name="setsIdOnSave" classname="hello.CustomerRepositoryTests" time="0">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+</error>
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-11-08 16:30:20.767  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Starting CustomerRepositoryTests on sistemas42 with PID 11316 (started by 2104481 in C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete)
+2018-11-08 16:30:20.768  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : No active profile set, falling back to default profiles: default
+2018-11-08 16:30:20.769  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c7cfcbb: startup date [Thu Nov 08 16:30:20 COT 2018]; root of context hierarchy
+2018-11-08 16:30:20.879  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-08 16:30:20.930  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Started CustomerRepositoryTests in 0.176 seconds (JVM running for 64.852)
+2018-11-08 16:30:20.931  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster description not yet available. Waiting for 30000 ms before timing out
+2018-11-08 16:30:21.889  INFO 11316 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongodb-driver-core-3.6.4.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongodb-driver-core-3.6.4.jar:na]
+	... 3 common frames omitted
+
+2018-11-08 16:30:50.921  INFO 11316 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-08 16:30:50.922 ERROR 11316 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) [spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 33 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 57 common frames omitted
+
+2018-11-08 16:30:50.922  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c7cfcbb: startup date [Thu Nov 08 16:30:20 COT 2018]; root of context hierarchy
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-11-08 16:30:50.941  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Starting CustomerRepositoryTests on sistemas42 with PID 11316 (started by 2104481 in C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete)
+2018-11-08 16:30:50.941  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : No active profile set, falling back to default profiles: default
+2018-11-08 16:30:50.942  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7baf6acf: startup date [Thu Nov 08 16:30:50 COT 2018]; root of context hierarchy
+2018-11-08 16:30:51.077  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-08 16:30:51.124  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Started CustomerRepositoryTests in 0.2 seconds (JVM running for 95.058)
+2018-11-08 16:30:51.125  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster description not yet available. Waiting for 30000 ms before timing out
+2018-11-08 16:30:52.084  INFO 11316 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongodb-driver-core-3.6.4.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongodb-driver-core-3.6.4.jar:na]
+	... 3 common frames omitted
+
+2018-11-08 16:31:21.116  INFO 11316 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-08 16:31:21.117 ERROR 11316 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) [spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.outputConditionEvaluationReport(SpringBootDependencyInjectionTestExecutionListener.java:54) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 32 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 56 common frames omitted
+
+2018-11-08 16:31:21.117  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7baf6acf: startup date [Thu Nov 08 16:30:50 COT 2018]; root of context hierarchy
+2018-11-08 16:31:21.119 ERROR 11316 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@22ff4249] to prepare test instance [hello.CustomerRepositoryTests@151db587]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) ~[spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 28 common frames omitted
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 33 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 57 common frames omitted
+
+]]></system-out>
+  </testcase>
+  <testcase name="findsByExample" classname="hello.CustomerRepositoryTests" time="0.001">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+</error>
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-11-08 16:31:21.138  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Starting CustomerRepositoryTests on sistemas42 with PID 11316 (started by 2104481 in C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete)
+2018-11-08 16:31:21.139  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : No active profile set, falling back to default profiles: default
+2018-11-08 16:31:21.140  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1bd0b0e5: startup date [Thu Nov 08 16:31:21 COT 2018]; root of context hierarchy
+2018-11-08 16:31:21.231  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-08 16:31:21.276  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Started CustomerRepositoryTests in 0.154 seconds (JVM running for 125.221)
+2018-11-08 16:31:21.277  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster description not yet available. Waiting for 30000 ms before timing out
+2018-11-08 16:31:22.235  INFO 11316 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongodb-driver-core-3.6.4.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongodb-driver-core-3.6.4.jar:na]
+	... 3 common frames omitted
+
+2018-11-08 16:31:51.269  INFO 11316 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-08 16:31:51.272 ERROR 11316 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) [spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 33 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 57 common frames omitted
+
+2018-11-08 16:31:51.273  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1bd0b0e5: startup date [Thu Nov 08 16:31:21 COT 2018]; root of context hierarchy
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-11-08 16:31:51.291  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Starting CustomerRepositoryTests on sistemas42 with PID 11316 (started by 2104481 in C:\Users\2104481\Downloads\gs-accessing-data-mongodb-master\gs-accessing-data-mongodb-master\complete)
+2018-11-08 16:31:51.291  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : No active profile set, falling back to default profiles: default
+2018-11-08 16:31:51.292  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f446158: startup date [Thu Nov 08 16:31:51 COT 2018]; root of context hierarchy
+2018-11-08 16:31:51.391  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-08 16:31:51.428  INFO 11316 --- [           main] hello.CustomerRepositoryTests            : Started CustomerRepositoryTests in 0.152 seconds (JVM running for 155.385)
+2018-11-08 16:31:51.429  INFO 11316 --- [           main] org.mongodb.driver.cluster               : Cluster description not yet available. Waiting for 30000 ms before timing out
+2018-11-08 16:31:52.407  INFO 11316 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114) ~[mongodb-driver-core-3.6.4.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57) ~[mongodb-driver-core-3.6.4.jar:na]
+	... 3 common frames omitted
+
+2018-11-08 16:32:21.421  INFO 11316 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-08 16:32:21.424 ERROR 11316 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) [spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.outputConditionEvaluationReport(SpringBootDependencyInjectionTestExecutionListener.java:54) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47) [spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 32 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 56 common frames omitted
+
+2018-11-08 16:32:21.425  INFO 11316 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@f446158: startup date [Thu Nov 08 16:31:51 COT 2018]; root of context hierarchy
+2018-11-08 16:32:21.427 ERROR 11316 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@22ff4249] to prepare test instance [hello.CustomerRepositoryTests@39ad12b6]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:821) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:802) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) ~[spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 28 common frames omitted
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:88) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2607) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:527) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doRemove(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.remove(MongoTemplate.java:1569) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.deleteAll(SimpleMongoRepository.java:188) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.sun.proxy.$Proxy54.deleteAll(Unknown Source) ~[na:na]
+	at hello.Application.run(Application.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:818) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 33 common frames omitted
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167) ~[mongodb-driver-core-3.6.4.jar:na]
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.Mongo$3.execute(Mongo.java:834) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1025) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.executeDelete(MongoCollectionImpl.java:1003) ~[mongodb-driver-3.6.4.jar:na]
+	at com.mongodb.MongoCollectionImpl.deleteMany(MongoCollectionImpl.java:584) ~[mongodb-driver-3.6.4.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1631) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1593) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:525) ~[spring-data-mongodb-2.0.10.RELEASE.jar:2.0.10.RELEASE]
+	... 57 common frames omitted
+
+]]></system-out>
+  </testcase>
+</testsuite>
